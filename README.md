@@ -7,17 +7,17 @@ So the idea is instead of generating a single response, the system produces mult
 The result was noticeably higher response diversity (close to 2× in practical testing) and reduced repetitive patterns — a small but meaningful step toward mitigating early-stage mode collapse.
 
 Built with FastAPI + Gemini + Streamlit, featuring:
-• Session-based conversational memory
-• Mode-aware behavioral toggles (normal 😊/ reasoning 🤯/ valentine 💝)
-• Token-aware context trimming
+* Session-based conversational memory
+* Mode-aware behavioral toggles (normal 😊/ reasoning 🤯/ valentine 💝)
+* Token-aware context trimming
 
 Since it is Valentine's Day, so couldn't stop myself from adding an intriguing Valentine'S Mode, that prompts a distinct shift in the personality.
 
 I also explored behavioral UX signaling:
 
-• 💙 Aqua glow → Reasoning mode (structured multi-candidate sampling)
-• 💘 Pink glow → Valentine mode (stylistic personality shift)
-• 😊 Neutral → Standard conversational mode
+* 💙 Aqua glow → Reasoning mode (structured multi-candidate sampling)
+* 💘 Pink glow → Valentine mode (stylistic personality shift)
+* 😊 Neutral → Standard conversational mode
 
 The glow isn’t decorative — it visually communicates which behavioral mode generated the response, making experimentation transparent and intuitive.
 
